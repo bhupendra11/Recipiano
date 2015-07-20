@@ -11,7 +11,7 @@ $navbar-default-color: $light-orange;
 	margin-right: 10px;
 	font-size: 2em;
 	color: #fff;
-	text-transform: uppercase;
+	
 	letter-spacing: -1px;
 	padding-top: 9px;
 	font-weight: bold;
@@ -66,4 +66,29 @@ h2{
 	color: #777;
 	padding-top: 10px;
 
+}
+
+.chef_info{
+	margin-top: 10px;
+
+}
+
+.gravatar{
+	border-radius: 10px;
+}
+
+.well{
+	background-color: #ededed;
+}
+
+input, textarea, select, .uneditable-input{
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	width: 100%;
+	margin-bottom: 15px;
+
+}
+
+input{
+	height: auto !important;
 }
